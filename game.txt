@@ -1,0 +1,12 @@
+Let's make a game!
+	name: IQ Incremental
+	by: john buddy
+	desc: hi
+	created: NOW
+	updated: 5 HOURS
+	version: I DON'T KNOW
+Settings
+	building cost increase:125%
+	building cost refund:80%
+layout
+	use default
