@@ -6,8 +6,13 @@ Let's make a game!
 	updated: 5 HOURS
 	version: I DON'T KNOW
 Settings
-	background:https://raw.githubusercontent.com/buddybeara/igm-thing/main/imag/background.png
+	tiling background:https://raw.githubusercontent.com/buddybeara/igm-thing/main/imag/background.png
 	building cost increase:125%
 	building cost refund:80%
 layout
 	use default
+Buttons
+*brute
+		name: Path Bruter
+		desc: Brute a path, giving you 1 path.
+		on click: yield 1 path
