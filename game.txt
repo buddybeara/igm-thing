@@ -13,6 +13,18 @@ layout
 	use default
 Buttons
 *brute
-		name: Path Bruter
-		desc: Brute a path, giving you 1 path.
+		name:Path Bruter
+		desc:Brute a path, giving you 1 path.
 		on click:yield 1 path
+Resources
+*path|Path
+	name: Path|Paths
+	desc: How many will it take to solve?
+	icon: icons[0,1]
+	show earned
+Buildings
+*friend|friends
+	name:friend|friends
+	desc:I'm surprised you even have any of these.
+	cost:10 path
+	on tick:yield 1 path
