@@ -15,4 +15,4 @@ Buttons
 *brute
 		name: Path Bruter
 		desc: Brute a path, giving you 1 path.
-		on click: yield 1 path
+		on click:yield 1 path
