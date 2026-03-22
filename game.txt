@@ -6,7 +6,6 @@ Let's make a game!
 	updated: 5 HOURS
 	version: I DON'T KNOW
 Settings
-	tiling background:https://raw.githubusercontent.com/buddybeara/igm-thing/refs/heads/main/background.png
 	building cost increase:125%
 	building cost refund:80%
 layout
