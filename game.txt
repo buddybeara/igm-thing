@@ -16,6 +16,9 @@ Buttons
 		name:Path Bruter
 		desc:Brute a path, giving you 1 path.
 		on click:yield 1 path
+		class:bigButton
+		no text
+		icon:https://raw.githubusercontent.com/buddybeara/igm-thing/refs/heads/main/puth.png
 Resources
 *path|Path
 	name: Path|Paths
@@ -23,7 +26,7 @@ Resources
 	show earned
 Buildings
 *friend|friends
-	name:friend|friends
-	desc:I'm surprised you even have any of these.
+	name:Friend|Friends
+	desc:I'm surprised you even have any of these. Brutes 1 path every 10 seconds.
 	cost:10 path
 	on tick:yield 1 path
