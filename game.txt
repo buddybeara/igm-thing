@@ -16,11 +16,11 @@ Buttons
 		name:Path Bruter
 		desc:Brute a path, giving you 1 path.
 		on click:yield 1 path
-		class:bigButton
+		class:bigButton hasFlares
 		no text
 		icon:https://raw.githubusercontent.com/buddybeara/igm-thing/refs/heads/main/puth.png
 Resources
-*path|Path
+*path|paths
 	name: Path|Paths
 	desc: How many will it take to solve?
 	show earned
@@ -29,4 +29,14 @@ Buildings
 	name:Friend|Friends
 	desc:I'm surprised you even have any of these. Brutes 1 path every 10 seconds.
 	cost:10 path
+	on tick:yield 0.1 path
+*macro|macros
+	name:Macro|Macros
+	desc:Set up a computer running a macro. Brutes 1 path every second.
+	cost:1000 path
 	on tick:yield 1 path
+*team|teams
+	name:Team|Teams
+	desc:Get a team of people to brute paths. Brutes 3 paths every second.
+	cost:2357347862347895672348957289356 path
+	on tick:yield 3 path
